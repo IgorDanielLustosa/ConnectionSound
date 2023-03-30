@@ -182,3 +182,22 @@ h1:hover{
   .red {
     border-left: 3px solid #ef4e36;
   }
+  .link__apresentacao{
+    display: flex;
+    justify-content: center;
+  }
+
+.link__apresentacao{
+    background-color:#ef4e36;
+    width: 280px;
+    text-align: center;
+    text-decoration: none;/*tira alinha de baixo do texto*/
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px ;
+    color: white;    
+}
+.link__apresentacao:hover{
+    transition: transform .4s;
+}
