@@ -25,20 +25,22 @@ nav{
 }
 .logo a{ /*logo branca*/
     color: #ffffff;
-    font-size: 35px;
+    font-size: 60px;
     letter-spacing: 2px;
     cursor: pointer;
     font-weight: 500;
 }
  .logo span{/*logo laranja*/
     color: #ef4e36;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 500;
 }
 nav ul li{/*alinhamento da barra de navegação*/
+    font-size: 25px;
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
+    
 }
 nav ul li a{/*cor Barra de navegação*/
     color: #ffffff
@@ -48,6 +50,7 @@ nav ul li a:hover{/*Barra de navegação*/
     transition: .4s;
 }
 .btn{
+    font-size: 25px;
     background-color: #ef4e36;
     color: #ffffff;
     text-decoration: 2px solid transparent;
@@ -55,6 +58,7 @@ nav ul li a:hover{/*Barra de navegação*/
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
+    text-decoration: none;
 }
 .btn:hover{
     transform: scale(1.2);
@@ -184,7 +188,11 @@ h1:hover{
   }
   .link__apresentacao{
     display: flex;
-    justify-content: center;
+    gap: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;   
+    text-decoration: none;
   }
 
 .link__apresentacao{
@@ -200,4 +208,33 @@ h1:hover{
 }
 .link__apresentacao:hover{
     transition: transform .4s;
+}
+/*depoimentos de clientes*/
+.depoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+/*Carrossel de videos*/
+
+.carrossel{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape{
+    padding: 15px;
+    color: #000000;
+    background-color: bl;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
 }
